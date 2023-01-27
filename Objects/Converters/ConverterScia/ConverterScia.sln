@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Objects", "..\..\Objects\Objects.csproj", "{98A11A2C-1607-433B-B8BF-474C73880963}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "..\..\..\Core\Core\Core.csproj", "{4846C3AD-B7A8-45DA-8887-02004C299121}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Local Dependencies", "Local Dependencies", "{838B0DF2-67B3-4C4C-AD2F-4FC09B142D7B}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ConverterSCIAShared", "ConverterSCIAShared\ConverterSCIAShared.shproj", "{F5C9B01A-AB4D-4671-B39C-44C386A1D736}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConverterSCIAv21.0", "ConverterSCIAv21.0\ConverterSCIAv21.0.csproj", "{97A0721D-7BC3-4E34-8B7E-76C3FB87308D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConverterSCIAv21.1", "ConverterSCIAv21.1\ConverterSCIAv21.1.csproj", "{6D74C76D-5340-4F7C-928F-D6EDC6C51A90}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConverterSCIAv22.0", "ConverterSCIAv22.0\ConverterSCIAv22.0.csproj", "{237CB34B-CA67-438D-9BA0-A8FA013B87DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCIAOpenAPITest.ConsoleApp", "SCIAOpenAPITest.ConsoleApp\SCIAOpenAPITest.ConsoleApp.csproj", "{878CCE9C-099A-4BEB-9966-D35F6828F42D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug-Rhino|Any CPU = Debug-Rhino|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98A11A2C-1607-433B-B8BF-474C73880963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98A11A2C-1607-433B-B8BF-474C73880963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98A11A2C-1607-433B-B8BF-474C73880963}.Debug-Rhino|Any CPU.ActiveCfg = Debug|Any CPU
+		{98A11A2C-1607-433B-B8BF-474C73880963}.Debug-Rhino|Any CPU.Build.0 = Debug|Any CPU
+		{98A11A2C-1607-433B-B8BF-474C73880963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98A11A2C-1607-433B-B8BF-474C73880963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4846C3AD-B7A8-45DA-8887-02004C299121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4846C3AD-B7A8-45DA-8887-02004C299121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4846C3AD-B7A8-45DA-8887-02004C299121}.Debug-Rhino|Any CPU.ActiveCfg = Debug|Any CPU
+		{4846C3AD-B7A8-45DA-8887-02004C299121}.Debug-Rhino|Any CPU.Build.0 = Debug|Any CPU
+		{4846C3AD-B7A8-45DA-8887-02004C299121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4846C3AD-B7A8-45DA-8887-02004C299121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97A0721D-7BC3-4E34-8B7E-76C3FB87308D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A0721D-7BC3-4E34-8B7E-76C3FB87308D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97A0721D-7BC3-4E34-8B7E-76C3FB87308D}.Debug-Rhino|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A0721D-7BC3-4E34-8B7E-76C3FB87308D}.Debug-Rhino|Any CPU.Build.0 = Debug|Any CPU
+		{97A0721D-7BC3-4E34-8B7E-76C3FB87308D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97A0721D-7BC3-4E34-8B7E-76C3FB87308D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D74C76D-5340-4F7C-928F-D6EDC6C51A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D74C76D-5340-4F7C-928F-D6EDC6C51A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D74C76D-5340-4F7C-928F-D6EDC6C51A90}.Debug-Rhino|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D74C76D-5340-4F7C-928F-D6EDC6C51A90}.Debug-Rhino|Any CPU.Build.0 = Debug|Any CPU
+		{6D74C76D-5340-4F7C-928F-D6EDC6C51A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D74C76D-5340-4F7C-928F-D6EDC6C51A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{237CB34B-CA67-438D-9BA0-A8FA013B87DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{237CB34B-CA67-438D-9BA0-A8FA013B87DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{237CB34B-CA67-438D-9BA0-A8FA013B87DB}.Debug-Rhino|Any CPU.ActiveCfg = Debug|Any CPU
+		{237CB34B-CA67-438D-9BA0-A8FA013B87DB}.Debug-Rhino|Any CPU.Build.0 = Debug|Any CPU
+		{237CB34B-CA67-438D-9BA0-A8FA013B87DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{237CB34B-CA67-438D-9BA0-A8FA013B87DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{878CCE9C-099A-4BEB-9966-D35F6828F42D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{878CCE9C-099A-4BEB-9966-D35F6828F42D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{878CCE9C-099A-4BEB-9966-D35F6828F42D}.Debug-Rhino|Any CPU.ActiveCfg = Debug|Any CPU
+		{878CCE9C-099A-4BEB-9966-D35F6828F42D}.Debug-Rhino|Any CPU.Build.0 = Debug|Any CPU
+		{878CCE9C-099A-4BEB-9966-D35F6828F42D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{878CCE9C-099A-4BEB-9966-D35F6828F42D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98A11A2C-1607-433B-B8BF-474C73880963} = {838B0DF2-67B3-4C4C-AD2F-4FC09B142D7B}
+		{4846C3AD-B7A8-45DA-8887-02004C299121} = {838B0DF2-67B3-4C4C-AD2F-4FC09B142D7B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D19E111-DFE3-4B56-97E2-7039DBE58257}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ConverterSCIAShared\ConverterSCIAShared.projitems*{237cb34b-ca67-438d-9ba0-a8fa013b87db}*SharedItemsImports = 5
+		ConverterSCIAShared\ConverterSCIAShared.projitems*{f5c9b01a-ab4d-4671-b39c-44c386a1d736}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal

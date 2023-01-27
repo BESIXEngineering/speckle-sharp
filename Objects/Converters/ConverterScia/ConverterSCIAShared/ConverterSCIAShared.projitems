@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>f5c9b01a-ab4d-4671-b39c-44c386a1d736</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>ConverterSCIAShared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ConverterSCIA.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConverterSCIA.Utils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Partial Classes\ConvertElement2D.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Partial Classes\ConvertElement1D.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Partial Classes\ConvertLoad.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Partial Classes\ConvertLoadCase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Partial Classes\ConvertLoadCombination.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Partial Classes\ConvertLoadGroup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Partial Classes\ConvertMaterial.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Partial Classes\ConvertModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Partial Classes\ConvertModelInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Partial Classes\ConvertModelUnits.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Partial Classes\ConvertNode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Partial Classes\ConvertProperty1D.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Partial Classes\ConvertRestraint.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Partial Classes\ConvertStorey.cs" />
+  </ItemGroup>
+</Project>
